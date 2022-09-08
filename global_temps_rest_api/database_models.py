@@ -1,9 +1,10 @@
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import Column, Float
+from sqlalchemy import Column, Float, create_engine
 from sqlalchemy import ForeignKey
 from sqlalchemy import Integer
 from sqlalchemy import String
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, declarative_base
+
 
 db = SQLAlchemy()
 

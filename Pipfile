@@ -11,6 +11,8 @@ flask-sqlalchemy = "*"
 pyodbc = "*"
 flask-marshmallow = "*"
 marshmallow-sqlalchemy = "*"
+sqlalchemy-utils = "*"
+werkzeug = "==2.1.2"
 
 [dev-packages]
 

@@ -3,7 +3,7 @@ from flask_marshmallow.sqla import auto_field
 from marshmallow_sqlalchemy import SQLAlchemyAutoSchema
 from marshmallow_sqlalchemy.fields import Nested
 
-from global_temps_rest_api.sql import City, Country
+from global_temps_rest_api.database_models import City, Country
 
 
 class CountrySchema(SQLAlchemyAutoSchema):
